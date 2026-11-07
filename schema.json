@@ -1,0 +1,126 @@
+{
+    "columns": [
+        "gender",
+        "SeniorCitizen",
+        "Partner",
+        "Dependents",
+        "tenure",
+        "PhoneService",
+        "MultipleLines",
+        "InternetService",
+        "OnlineSecurity",
+        "OnlineBackup",
+        "DeviceProtection",
+        "TechSupport",
+        "StreamingTV",
+        "StreamingMovies",
+        "Contract",
+        "PaperlessBilling",
+        "PaymentMethod",
+        "MonthlyCharges",
+        "TotalCharges"
+    ],
+    "types": {
+        "gender": "object",
+        "SeniorCitizen": "int64",
+        "Partner": "object",
+        "Dependents": "object",
+        "tenure": "int64",
+        "PhoneService": "object",
+        "MultipleLines": "object",
+        "InternetService": "object",
+        "OnlineSecurity": "object",
+        "OnlineBackup": "object",
+        "DeviceProtection": "object",
+        "TechSupport": "object",
+        "StreamingTV": "object",
+        "StreamingMovies": "object",
+        "Contract": "object",
+        "PaperlessBilling": "object",
+        "PaymentMethod": "object",
+        "MonthlyCharges": "float64",
+        "TotalCharges": "float64"
+    },
+    "categories": {
+        "gender": [
+            "Female",
+            "Male"
+        ],
+        "SeniorCitizen": [
+            0,
+            1
+        ],
+        "Partner": [
+            "Yes",
+            "No"
+        ],
+        "Dependents": [
+            "Yes",
+            "No"
+        ],
+        "PhoneService": [
+            "Yes",
+            "No"
+        ],
+        "MultipleLines": [
+            "Yes",
+            "No"
+        ],
+        "InternetService": [
+            "DSL",
+            "Fiber optic",
+            "No"
+        ],
+        "OnlineSecurity": [
+            "Yes",
+            "No"
+        ],
+        "OnlineBackup": [
+            "Yes",
+            "No"
+        ],
+        "DeviceProtection": [
+            "Yes",
+            "No"
+        ],
+        "TechSupport": [
+            "Yes",
+            "No"
+        ],
+        "StreamingTV": [
+            "Yes",
+            "No"
+        ],
+        "StreamingMovies": [
+            "Yes",
+            "No"
+        ],
+        "Contract": [
+            "Month-to-month",
+            "One year",
+            "Two year"
+        ],
+        "PaperlessBilling": [
+            "Yes",
+            "No"
+        ],
+        "PaymentMethod": [
+            "Electronic check",
+            "Mailed check",
+            "Bank transfer",
+            "Credit card"
+        ]
+    },
+    "domain": {
+        "tenure": {
+            "min": 0,
+            "max": 72
+        },
+        "MonthlyCharges": {
+            "min": 0.0
+        },
+        "TotalCharges": {
+            "min": 0.0
+        }
+    }
+}
